@@ -1,0 +1,66 @@
+html,
+body,
+
+
+#cover
+{
+  background:url("../image/164945.jpg")no-repeat center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+.profile-set{
+  background-color:#ccc;
+}
+.user-info{
+  padding: 20px;
+  min-height: 460px;
+}
+
+.container{
+position: relative;
+background-color: #fff;
+top: 100px;
+
+}
+.profile-usertitle-job
+{
+
+  text-transform: uppercase;
+  text-align: center;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.user-links{
+ text-align: center;
+}
+
+.profile-side{
+
+  padding: 20px 0 10px 0;
+ margin-top: 20px auto;
+}
+
+.profile-userpic img{
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  height: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.user-title{
+  text-align: center;
+  margin-top: 20px;
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}

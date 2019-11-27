@@ -1,0 +1,78 @@
+html,
+body,
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cover{
+  background-image: url("../image/background-fitness.jpg");
+
+}
+
+.form-box{
+  position: relative;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 12% auto;
+  padding: 50px 0;
+  color:#fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.input-box{
+    margin: 30px auto;
+    width: 80% ;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input-box input{
+  width: 390px;
+  border:none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+::placeholder{
+  color:#ccc;
+}
+input[type=submit] {
+  margin: 40px auto 0;
+  width: 80%;
+  display: block;
+  outline: none;
+  padding: 10px 0;
+  border: 1px solid #ff0000;
+  cursor:pointer;
+  background: transparent;
+  color: #ff0000;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info{
+  position: absolute;
+
+}
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+.info_p{
+  text-colo
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: #000;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {display: block;}
